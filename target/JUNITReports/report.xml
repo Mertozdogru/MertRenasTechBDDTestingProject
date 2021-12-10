@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="17.972">
+<testcase classname="Test payment functionality" name="provide payment information and verify if its successful" time="6.546">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy "5" quantities of toy..............................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test payment functionality" name="" time="2.305">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy toy as "5".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test payment functionality" name="_2" time="2.266">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy toy as "8".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test payment functionality" name="_3" time="2.251">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy toy as "9".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test payment functionality" name="_4" time="2.217">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy toy as "2".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test payment functionality" name="_5" time="2.199">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+And The user want to buy toy as "4".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
+</testcase>
+</testsuite>
