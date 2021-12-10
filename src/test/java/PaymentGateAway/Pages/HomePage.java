@@ -14,13 +14,13 @@ public class HomePage extends BrowserUtils {
     }
 
     @FindBy(xpath = "//h2[.='Mother Elephant With Babies Soft Toy']")
-    WebElement header;
+    private WebElement header;
     @FindBy(xpath = "//h3[.='Price: $20']")
-    WebElement price;
+    private WebElement price;
     @FindBy(xpath = "//select[@name='quantity']")
-    WebElement quantity;
+    private WebElement quantity;
     @FindBy(xpath = "//input[@value='Buy Now']")
-    WebElement buyNow;
+    private WebElement buyNow;
 
 
     public void setHeader(String head){

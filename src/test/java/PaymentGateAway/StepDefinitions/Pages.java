@@ -4,12 +4,14 @@ import PaymentGateAway.Pages.AfterPayment;
 import PaymentGateAway.Pages.HomePage;
 import PaymentGateAway.Pages.PaymentPage;
 import io.cucumber.java.en.*;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 
 public class Pages {
     HomePage homePage = new HomePage();
     PaymentPage paymentPage = new PaymentPage();
     AfterPayment afterPayment = new AfterPayment();
+    private static final Logger logger=Logger.getLogger(Pages.class);
 
     @Given("The user wants to see payment gateway website")
     public void the_user_wants_to_see_payment_gateway_website() {
@@ -19,6 +21,8 @@ public class Pages {
     @When("The user wants to verify that it is {string} page")
     public void the_user_wants_to_verify_that_it_is_page(String string) {
         homePage.setHeader(string);
+        logger.info(" Header is displayed ");
+
     }
 
     @Then("The user wants to verify that the toy price is {string}")
@@ -60,8 +64,7 @@ public class Pages {
 
     @Then("The user wants to verify message as {string}")
     public void the_user_wants_to_verify_message_as(String string) {
-        afterPayment.verifyMessage(string);
-        afterPayment.mssge();
+        Assert.assertEquals(afterPayment.verifyMessage(),string);
 
 
     }

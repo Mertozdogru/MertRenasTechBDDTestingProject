@@ -13,15 +13,15 @@ public class PaymentPage extends BrowserUtils {
         PageFactory.initElements(driver,this);
     }
     @FindBy(id = "card_nmuber")
-    WebElement cardNumber;
+   private WebElement cardNumber;
     @FindBy(id = "month")
-    WebElement month;
+    private WebElement month;
     @FindBy(id = "year")
-    WebElement year;
+    private WebElement year;
     @FindBy(id = "cvv_code")
-    WebElement cvv;
+    private WebElement cvv;
     @FindBy(xpath = "//input[@name='submit']")
-    WebElement payButton;
+    private WebElement payButton;
     Faker faker = new Faker();
     public void setCardNumber() {
 

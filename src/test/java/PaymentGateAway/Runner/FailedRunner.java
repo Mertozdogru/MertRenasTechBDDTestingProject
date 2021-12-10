@@ -6,20 +6,17 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/resources",
-       glue = "PaymentGateAway/StepDefinitions",
+        features = "@target/rerun.txt",
+        glue = "PaymentGateAway/StepDefinitions",
         dryRun= false,
-        tags = "@Smoke or @Regression",
+     //   tags = "@smoke",
         plugin ={  "pretty",
                 "html:target/HTMLReports/reports.html",
                 "json:target/JSONReports/report.json",
-               // "junit:target/JUNITReports/report.xml",
+                "junit:target/JUNITReports/report.xml",
                 "rerun:target/rerun.txt"
-        },
-        publish=true,
-        monochrome = true
+        }
 
 )
-public class guruRunner {
-
+public class FailedRunner {
 }

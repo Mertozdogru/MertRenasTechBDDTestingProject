@@ -12,11 +12,11 @@ public class AfterPayment extends BrowserUtils {
     }
 
     @FindBy(xpath = "//section[@id='three']/div/div/h2")
-    WebElement paymentVerificationMessage;
+    private WebElement paymentVerificationMessage;
 
-    public void verifyMessage(String string) {
+    public String verifyMessage() {
         String paymentVerificationMessageText= paymentVerificationMessage.getText();
-        Assert.assertEquals(paymentVerificationMessageText,string);
+        return paymentVerificationMessageText;
     }
 
     public  void mssge(){
