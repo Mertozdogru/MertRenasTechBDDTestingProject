@@ -1,3 +1,1 @@
 # MertRenasTechBDDTestingProject
-# Mertozdogru-MertRenasTechBDDTestingProject
-# MertRenasTechBDDTestingProject
