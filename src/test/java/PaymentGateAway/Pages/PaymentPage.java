@@ -2,7 +2,6 @@ package PaymentGateAway.Pages;
 
 import PaymentGateAway.Utils.BrowserUtils;
 import com.github.javafaker.Faker;
-import io.cucumber.java.eo.Se;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
