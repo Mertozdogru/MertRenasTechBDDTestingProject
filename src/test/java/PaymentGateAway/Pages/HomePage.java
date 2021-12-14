@@ -49,8 +49,6 @@ public class HomePage extends BrowserUtils {
     public void setQuantityForOutline(String nmber){
         Select dropDown=new Select(quantity);
         dropDown.selectByVisibleText(nmber);
-
-
     }
 
 }

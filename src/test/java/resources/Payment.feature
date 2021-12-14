@@ -38,3 +38,10 @@ Feature:Test payment functionality
       | 9          |
       | 2          |
       | 4          |
+    @TC6 @Excel
+    Scenario:Customer wants to order 5 toys
+      And The user wants to enter payment information as in excel sheet
+      Then The user wants to click on Buy Now button
+      And The user fill out the information
+      Then The user wants to pay now
+      And The user wants to verify message as "Payment successfull!"

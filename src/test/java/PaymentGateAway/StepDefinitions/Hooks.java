@@ -14,11 +14,11 @@ import java.util.concurrent.TimeUnit;
 
 
 public class Hooks extends BrowserUtils {
-    //private static final Logger logger=Logger.getLogger(Hooks.class);
+    private static final Logger logger = Logger.getLogger(Hooks.class);
 
     @Before
-    public void setup(Scenario scenario){
-      //  logger.info(":::(^_^) TEST EXECUTION START (*_*)");
+    public void setup(Scenario scenario) {
+        logger.info(":::(^_^) TEST EXECUTION START (*_*)");
         Driver.getDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -26,13 +26,14 @@ public class Hooks extends BrowserUtils {
 
 
     }
-    @After
-    public void tearDown(Scenario scenario){
-        if(scenario.isFailed()){
-            byte[] data=((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(data,"image/png", scenario.getName());
-        }
 
+    @After
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            byte[] data = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(data, "image/png", scenario.getName());
+        }
+       // driver.close();
 
     }
 }
