@@ -9,15 +9,13 @@ import org.junit.runner.RunWith;
         features = "src/test/java/resources",
        glue = "PaymentGateAway/StepDefinitions",
         dryRun= false,
-        tags = "@Smoke or @Regression",
+        tags = "@Smoke",
         plugin ={  "pretty",
-                "html:target/HTMLReports/reports.html",
                 "json:target/JSONReports/report.json",
-                "junit:target/JUNITReports/report.xml",
                 "rerun:target/rerun.txt"
-        },
-        publish=true,
-        monochrome = true
+        }
+       // publish=true,
+       // monochrome = true
 
 )
 public class guruRunner {
