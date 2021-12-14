@@ -1,239 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="8" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="3.897">
-<testcase classname="Test payment functionality" name="Verify home page" time="3.546">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="19.768">
+<testcase classname="Test payment functionality" name="Verify home page" time="4.181">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Verify toy price" time="0.028">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-Then The user wants to verify that the toy price is "Price: $20"............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Verify toy price" time="0.326">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+Then The user wants to verify that the toy price is "Price: $20"............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Verify the url title" time="0.012">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-Then The user wants to verify URL contains "payment-gateway"................skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Verify the url title" time="0.288">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+Then The user wants to verify URL contains "payment-gateway"................passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order 5 toys" time="0.01">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy "5" quantities of toy..............................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order 5 toys" time="3.698">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy "5" quantities of toy..............................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy" time="0.009">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy toy as "5".........................................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy" time="2.271">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy toy as "5".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 2" time="0.01">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy toy as "8".........................................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 2" time="2.179">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy toy as "8".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 3" time="0.011">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy toy as "9".........................................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 3" time="2.19">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy toy as "9".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 4" time="0.014">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy toy as "2".........................................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 4" time="2.143">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy toy as "2".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 5" time="0.009">
-<failure message="invalid session id&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 944c1aba7b6799ae588c6832f052bad2" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[Given The user wants to see payment gateway website.........................skipped
-And The user want to buy toy as "4".........................................skipped
-Then The user wants to click on Buy Now button..............................skipped
-And The user fill out the information.......................................skipped
-Then The user wants to pay now..............................................skipped
-And The user wants to verify message as "Payment successfull!"..............skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Merts-MBP.lan', ip: '2603:7000:1307:73f5:b812:53c7:e7c3:7298%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: /var/folders/nv/jw23dst56xj...}, goog:chromeOptions: {debuggerAddress: localhost:50955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 944c1aba7b6799ae588c6832f052bad2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at PaymentGateAway.StepDefinitions.Hooks.setup(Hooks.java:23)
-]]></failure>
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 5" time="2.251">
+<system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
+And The user want to buy toy as "4".........................................passed
+Then The user wants to click on Buy Now button..............................passed
+And The user fill out the information.......................................passed
+Then The user wants to pay now..............................................passed
+And The user wants to verify message as "Payment successfull!"..............passed
+]]></system-out>
 </testcase>
 </testsuite>
