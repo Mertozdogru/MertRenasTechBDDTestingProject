@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="18.452">
-<testcase classname="Test payment functionality" name="Verify home page" time="2.775">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="19.334">
+<testcase classname="Test payment functionality" name="Verify home page" time="3.263">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 When The user wants to verify that it is "Mother Elephant With Babies Soft Toy" page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Verify toy price" time="0.366">
+<testcase classname="Test payment functionality" name="Verify toy price" time="0.368">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 Then The user wants to verify that the toy price is "Price: $20"............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Verify the url title" time="0.302">
+<testcase classname="Test payment functionality" name="Verify the url title" time="0.277">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 Then The user wants to verify URL contains "payment-gateway"................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order 5 toys" time="3.634">
+<testcase classname="Test payment functionality" name="Customer wants to order 5 toys" time="3.616">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy "5" quantities of toy..............................passed
 Then The user wants to click on Buy Now button..............................passed
@@ -23,7 +23,7 @@ Then The user wants to pay now..............................................pass
 And The user wants to verify message as "Payment successfull!"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy" time="2.237">
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy" time="2.322">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy toy as "5".........................................passed
 Then The user wants to click on Buy Now button..............................passed
@@ -32,7 +32,7 @@ Then The user wants to pay now..............................................pass
 And The user wants to verify message as "Payment successfull!"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 2" time="2.205">
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 2" time="2.338">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy toy as "8".........................................passed
 Then The user wants to click on Buy Now button..............................passed
@@ -41,7 +41,7 @@ Then The user wants to pay now..............................................pass
 And The user wants to verify message as "Payment successfull!"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 3" time="2.272">
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 3" time="2.321">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy toy as "9".........................................passed
 Then The user wants to click on Buy Now button..............................passed
@@ -50,7 +50,7 @@ Then The user wants to pay now..............................................pass
 And The user wants to verify message as "Payment successfull!"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 4" time="2.266">
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 4" time="2.371">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy toy as "2".........................................passed
 Then The user wants to click on Buy Now button..............................passed
@@ -59,7 +59,7 @@ Then The user wants to pay now..............................................pass
 And The user wants to verify message as "Payment successfull!"..............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 5" time="2.184">
+<testcase classname="Test payment functionality" name="Customer wants to order different quantities of toy 5" time="2.28">
 <system-out><![CDATA[Given The user wants to see payment gateway website.........................passed
 And The user want to buy toy as "4".........................................passed
 Then The user wants to click on Buy Now button..............................passed
